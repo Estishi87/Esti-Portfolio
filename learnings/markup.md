@@ -1,6 +1,6 @@
 <div align="center">
  
- ![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/3637b92c-0fdc-40d4-8de3-403497ee0d65 )
+
  <br ></div>
 
  # Introduction
