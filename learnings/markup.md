@@ -97,6 +97,33 @@ In summary, our choice of light colors is a deliberate decision to enhance color
 
 # 4. Use various tools to check that our website meets accessibility criteria
 
+In our web development project, ensuring accessibility is a priority. We have employed various tools and techniques to check that our website meets accessibility criteria, providing an inclusive experience for all users, including those with disabilities.
+
+## Tabindex Attribute (As Mentioned in Point 2)
+
+As previously mentioned, we used the `tabindex` attribute strategically to control the order in which elements receive keyboard focus, ensuring a logical and meaningful navigation experience for screen reader users and keyboard users.
+
+## Evaluation with Online Tools
+
+To further ensure accessibility, we utilized online tools to evaluate our website's compliance with accessibility standards. One of the tools we relied on is [Easy Agile's Accessibility Checker](https://blog.easyagile.com/how-to-write-good-user-stories-in-agile-software-development-d4b25356b604).
+
+## Meeting Acceptance Criteria
+
+In addition to using tools, we also considered specific acceptance criteria to ensure accessibility throughout the project. Here are some examples of the acceptance criteria we addressed:
+
+1. **Navigation Menu**: The navigation menu is designed and tested to be fully navigable and usable with keyboard controls and screen readers.
+
+2. **'About Us' Section**: We ensured that the 'About Us' section contains descriptive and meaningful content to enhance comprehension.
+
+3. **Contact Form**: The contact form is designed with accessible labels, and form fields are marked appropriately for screen readers.
+
+4. **Form Submission**: Users cannot submit the form without completing all mandatory fields, including name, company name, and email address. This ensures that important information is not omitted.
+
+5. **User Interaction**: Information from the form is not submitted until the user clicks a button, providing control and context to users.
+
+By addressing these acceptance criteria and utilizing accessibility evaluation tools, we are committed to making our website accessible to all users, regardless of their abilities. Our goal is to provide an inclusive and user-friendly experience for everyone who visits our site.
+
+
 # 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 
 # 6. Demonstrate a mobile-first approach to building a website
