@@ -1,3 +1,8 @@
+<div align="center">
+ 
+ ![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/3637b92c-0fdc-40d4-8de3-403497ee0d65)
+ <br ></div>
+
 # 1. Structure a site using semantic HTML to aid accessibility
 
 In my Sky & Fly agency website project, I employed semantic HTML elements to create a well-structured and accessible website. Here are some of the key elements I used:
