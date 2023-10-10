@@ -53,6 +53,23 @@ By utilizing these semantic elements, I enhanced the website's structure, access
 
 ## 2. Ensure a web page is readable for screen readers
 
+In our web development project, we paid special attention to making our web pages readable for screen readers and ensuring an inclusive browsing experience for all users, including those with visual impairments. One of the techniques we used to enhance screen reader accessibility is the tabindex attribute.
+
+### Tabindex Attribute
+The tabindex attribute allows us to control the order in which elements receive keyboard focus when a user navigates a web page using the "Tab" key. By strategically applying the tabindex attribute, we can ensure that screen readers and keyboard users can navigate and interact with our content in a logical and meaningful way.
+
+For example:
+
+```html
+<div class="card" tabindex="0">
+    <!-- Content of the card -->
+</div>
+```
+In the above code snippet, we've added a tabindex attribute to a <div> element with the class "card." This allows users to focus on the "card" element when navigating the page using the keyboard. The tabindex="0" value means that the element will receive keyboard focus in the order it appears in the HTML source code.
+
+By using tabindex appropriately and ensuring that the focus order follows a logical flow, we make it easier for screen reader users to understand and interact with our web pages, providing a more accessible and inclusive user experience.
+
+
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
 ## 4. Use various tools to check that our website meets accessibility criteria
