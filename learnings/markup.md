@@ -273,7 +273,8 @@ CSS Grid has enabled us to create engaging and visually coherent layouts that al
 
 ## 10. Ensure our Git commit history tells a coherent story
 
-![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/b26c55cb-4912-462f-80bc-3baf580f8326)
+![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/8cccc6f6-b933-492a-a720-5d61c2b022fd)
+
 
 
 In the development of our website for Sky & Fly Agency, we have placed a strong emphasis on keeping our Git commit history coherent and meaningful. A well-maintained commit history is essential for understanding the evolution of our project and collaborating effectively.
