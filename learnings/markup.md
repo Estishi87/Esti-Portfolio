@@ -86,6 +86,7 @@ In our web development project, we prioritized ensuring that our user interface 
 
 ## Using Light Colors
 <div align="center">
+ 
 ![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/5be7e097-9900-4ec2-b613-9ae110775b5c)
  <br ></div>
 
