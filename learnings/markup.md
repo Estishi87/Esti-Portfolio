@@ -85,8 +85,9 @@ By using tabindex appropriately and ensuring that the focus order follows a logi
 In our web development project, we prioritized ensuring that our user interface (UI) maintains sufficient color contrast to ensure a comfortable and inclusive browsing experience for all users. We chose light colors as part of our design strategy to create a visually pleasing and accessible user interface.
 
 ## Using Light Colors
+<div align="center">
 ![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/5be7e097-9900-4ec2-b613-9ae110775b5c)
-
+ <br ></div>
 
 We deliberately selected a color palette that incorporates light colors to enhance the readability and usability of our website. Light colors not only contribute to an aesthetically pleasing design but also help improve the overall user experience, especially for individuals with visual impairments.
 
@@ -98,7 +99,7 @@ By opting for light colors, we achieve the following benefits:
 
 3. **Reduced Eye Strain**: Light color schemes are generally less likely to cause eye strain and fatigue during extended periods of reading or browsing.
 
-## Prioritizing User Comfort
+### Prioritizing User Comfort
 
 Our design approach underscores the importance of user comfort and accessibility. By using light colors, we aim to provide a comfortable and enjoyable viewing experience for all users, regardless of their visual abilities. This commitment to color contrast aligns with our goal of making our website accessible to as many people as possible.
 
@@ -144,9 +145,21 @@ During the development process, we initially employed traditional CSS media quer
 
 ### Leveraging `calc()` with Media Queries
 
+```css
+.heading-container h1 span {
+  color: #5de4c7;
+  font-size: calc(4.3vw + 10px);
+}
+```
+
 As we continued to refine our design, we discovered that using the `calc()` function in conjunction with media queries significantly streamlined the process of creating responsive layouts. This approach allowed us to calculate element sizes based on dynamic factors, reducing the need for complex and repetitive media query definitions.
 
 ### Smartphone Optimization
+<div align="center">
+ 
+![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/457cf915-8a11-41ab-8b43-ebf86272bd06)
+ <br ></div>
+
 
 Recognizing the increasing importance of mobile users, the majority of our media queries were specifically designed to enhance the website's usability on smartphones. This involved adjusting font sizes, content placement, and other design elements to provide an excellent experience for users on smaller screens.
 
@@ -161,6 +174,15 @@ In the development of our website for Sky & Fly Agency, we have adhered to a mob
 Our mobile-first approach involves designing and building the website with mobile devices as the primary target. This means that we have created a layout and user interface that is optimized for smaller screens. All design decisions, such as typography, layout, and content placement, were initially tailored to provide the best experience for mobile users.
 
 ### Ensuring Visibility with Z-Index
+
+```
+.header {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 3;
+}
+```
 
 To enhance the mobile user experience, we have utilized Z-index properties to carefully manage the stacking order of elements on the page. This ensures that essential content remains visible and easily accessible, even on smaller screens. Z-index has been instrumental in preventing elements from overlapping and causing usability issues for mobile users.
 
@@ -181,6 +203,13 @@ Our approach involved giving individual pages a distinct visual identity to crea
 ### Tailoring Colors to Page Context
 
 To create a cohesive design within each page, we have manually tailored and specified the color choices that best suit the context and theme of that particular section. This level of customization ensures that the color scheme aligns perfectly with the content and overall design intentions of each page.
+
+<div align="center">
+ 
+![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/f60df8a4-ef89-43cb-a8e0-976b673be27c)
+
+ <br ></div>
+
 
 While CSS variables are a powerful tool for applying consistent colors to HTML elements, our decision to forgo them in favor of tailored color choices has allowed us to provide a visually stimulating and dynamic experience for visitors across different sections of our website.
 
@@ -214,6 +243,11 @@ In our web development project for Sky & Fly Agency, we have harnessed the power
 
 ### Utilizing Grid for the Team Section
 
+<div align="center">
+ 
+![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/1e24cca4-a86e-401d-8e4d-5fe41c3e755e)
+ <br ></div>
+
 One notable application of CSS Grid is in our team section, where it has allowed us to present all six team members perfectly and elegantly on a single page. This strategic use of CSS Grid provides an organized and visually appealing layout that showcases our team effectively.
 
 ### Example of Grid Usage
@@ -237,6 +271,9 @@ In this snippet, the card-container class is styled as a grid layout with three 
 CSS Grid has enabled us to create engaging and visually coherent layouts that align with our design principles. Its implementation in our team section exemplifies our commitment to providing a user-friendly and aesthetically pleasing browsing experience.
 
 ## 10. Ensure our Git commit history tells a coherent story
+
+![image](https://github.com/Estishi87/Esti-Portfolio/assets/125391502/b26c55cb-4912-462f-80bc-3baf580f8326)
+
 
 In the development of our website for Sky & Fly Agency, we have placed a strong emphasis on keeping our Git commit history coherent and meaningful. A well-maintained commit history is essential for understanding the evolution of our project and collaborating effectively.
 
